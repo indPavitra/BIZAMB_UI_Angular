@@ -1,0 +1,10 @@
+<h3>
+  {{title}}
+</h3>
+<div *ngIf=processing>
+<img src="assets/loading.gif" >  
+</div>
+
+<div class='row' *ngFor='let category of categories'>
+{{category.title}}<br/>
+</div>
